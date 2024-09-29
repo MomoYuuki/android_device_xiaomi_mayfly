@@ -1,5 +1,9 @@
 # Audio
 ro.hardware.audio.primary=taro-mayfly
 
+# Fingerprint
+persist.vendor.fingerprint.type=udfps_optical
+persist.vendor.fingerprint.sensor_location=540|2163|107
+
 # Sensors
 ro.vendor.sensors.xiaomi.udfps=true
