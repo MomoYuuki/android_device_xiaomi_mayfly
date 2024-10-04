@@ -9,4 +9,8 @@
 
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">1000px</dimen>
+
+    <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
+         relies on this value will not be sized correctly. -->
+    <item format="float" name="pixel_pitch" type="dimen">60.61</item>
 </resources>
