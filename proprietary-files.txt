@@ -108,7 +108,7 @@ vendor/etc/usecaseKvManager.xml
 
 # Audio
 # audio.primary.taro depends on vendor.qti.hardware.pal@1.0-impl, which is a gnu makefile target
-vendor/lib64/hw/audio.primary.taro.so:vendor/lib64/hw/audio.primary.taro-mayfly.so;DISABLE_CHECKELF
+vendor/lib64/hw/audio.primary.taro.so;DISABLE_CHECKELF
 vendor/lib64/libagm.so
 # libar-pal depends on libagmclient, which is a gnu makefile target
 vendor/lib64/libar-pal.so;DISABLE_CHECKELF
