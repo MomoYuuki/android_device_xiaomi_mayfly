@@ -15,10 +15,6 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i 's/=\([0-9]\+\)>/="\1">/g' "${2}"
             ;;
-        vendor/lib64/hw/fingerprint.goodix_fod.default.so)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF_0_17_2}" --set-soname "fingerprint.goodix_fod.default.so" "${2}"
-            ;;
         vendor/lib64/libcamximageformatutils.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF_0_17_2}" --replace-needed "vendor.qti.hardware.display.config-V2-ndk_platform.so" "vendor.qti.hardware.display.config-V2-ndk.so" "${2}"
