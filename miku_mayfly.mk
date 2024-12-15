@@ -20,6 +20,12 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2206123SC
 PRODUCT_NAME := miku_mayfly
 
+# Gapps
+MIKU_GAPPS := true
+
+# Maintainers
+MIKU_MASTER := MomoYuuki
+
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 1080
 
