@@ -17,6 +17,7 @@ PRODUCT_PACKAGES += \
     FrameworksResMayfly \
     LineageResMayfly \
     NfcResMayfly \
+    SettingsResMayfly \
     SettingsProviderResMayfly \
     SystemUIResMayfly \
     WifiResMayfly
