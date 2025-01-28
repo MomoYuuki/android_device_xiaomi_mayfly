@@ -27,8 +27,8 @@ PRODUCT_SYSTEM_NAME := mayfly
 PRODUCT_SYSTEM_DEVICE := mayfly
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="mayfly-user 14 UKQ1.231003.002 V816.0.11.0.ULTCNXM release-keys" \
-    BuildFingerprint=Xiaomi/mayfly/mayfly:14/UKQ1.231003.002/V816.0.11.0.ULTCNXM:user/release-keys \
+    BuildDesc="mayfly-user 14 UKQ1.231003.002 V816.0.14.0.ULTCNXM release-keys" \
+    BuildFingerprint=Xiaomi/mayfly/mayfly:14/UKQ1.231003.002/V816.0.14.0.ULTCNXM:user/release-keys \
     DeviceProduct=mayfly \
     SystemName=mayfly
 
